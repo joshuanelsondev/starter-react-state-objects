@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { v4 as generateUniqueID } from 'uuid'; 
 import { dogsData } from "./data";
+import Form from "./Components/Form";
 
 function App() { 
   // State for our pet nickname
@@ -94,6 +95,7 @@ function handleNickNameChange(event) {
           </h3>
         </form>
       </main>
+      <Form />
     </div>
   );
 }
